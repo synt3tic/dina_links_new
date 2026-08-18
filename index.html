@@ -16,6 +16,20 @@
     rel="stylesheet"
   />
 
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=111707224', 'ym');
+
+      ym(111707224, 'init', {ssr:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/111707224" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
   <style>
     :root {
       --text: #fff;
@@ -233,6 +247,10 @@
       transform: scale(0.985);
     }
 
+    .link_full-width {
+      grid-column: span 2 / span 2;
+    }
+
     .icon {
       width: 23px;
       height: 23px;
@@ -368,6 +386,10 @@
 	    border-radius: 12px;
 	  }
 
+    .link_full-width {
+      grid-column: auto;
+    }
+
 	  .icon {
 	    width: 21px;
 	    height: 21px;
@@ -432,6 +454,23 @@
 
 
       <nav class="links" aria-label="Контакты">
+
+        <!-- Dikidi -->
+        <a
+          class="link link_full-width"
+          href="https://dikidi.net/1674454"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 23V0H9.73585C11.6436 0 13.3574 0.233145 14.8774 0.699434C16.3973 1.15488 17.6813 1.85431 18.7296 2.79774C19.7883 3.73032 20.5954 4.90688 21.1509 6.32744C21.717 7.73715 22 9.39628 22 11.3048C22 12.7579 21.8532 14.0592 21.5597 15.2086C21.2767 16.3472 20.8679 17.3503 20.3333 18.2178C19.8092 19.0853 19.1698 19.8227 18.4151 20.43C17.6709 21.0264 16.8428 21.5198 15.9308 21.9102C15.0189 22.2897 14.0335 22.5662 12.9748 22.7397C11.9266 22.9132 10.826 23 9.67296 23H2ZM7.76923 18.7632H9.30769C10.1253 18.7632 10.2692 18.7632 11.0385 18.7632C11.8077 18.7632 13.2591 18.6242 13.7308 18.1579C14.5 17.7544 15.0769 16.9474 15.6538 15.7368C16.1346 14.7281 16.6154 13.4933 16.6154 12.1053C16.6154 10.8474 16.381 9.58128 15.8462 8.27193C15.2692 6.85965 13.9231 5.64912 13.9231 5.64912C13.1538 5.24561 12.9615 5.24561 12 4.84211C11.2308 4.74965 10.5063 4.74965 9.65723 4.74965H7.76923V18.7632Z" fill="white"/>
+          </svg>
+
+          <div class="link-content">
+            <div class="link-title">Dikidi</div>
+            <div class="link-subtitle">Онлайн запись</div>
+          </div>
+        </a>
 
         <!-- Instagram -->
         <a
